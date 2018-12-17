@@ -70,7 +70,6 @@ try:
 
     logger.info("Getting Splunk results ...")
     results, dummyresults, settings = splunk.Intersplunk.getOrganizedResults()
-    logger.debug(results)
 
     for line in results:
         try:
