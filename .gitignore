@@ -1,0 +1,4 @@
+*.py[cod]
+.DS_STORE
+manuf.db
+manuf.db.timestamp
